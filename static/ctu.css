@@ -1,0 +1,113 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    background-color:#F1EAFF;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#363062;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color:#363062;
+}
+.Content1{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 700px;
+}
+.Content2{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 700px;
+}
+.final-img{
+    width: 500px;
+    position: absolute;
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-top: -150px;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #DCBFFF;
+    color:#363062 !important;
+    height: 140px;
+}
+/* Navigation-Bar */
+
+.navbar{
+    padding: 0 0 0rem;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #363062 !important;
+}
+.nav-link a:hover {
+    color: white; /* Set your hover color */
+}
+
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #363062 !important;
+    margin-top: 0px;
+}
+
+.nav-item{
+    padding: 5px;
+    color: #363062 !important;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat" ;
+    font-weight: light;
+    color: #363062 !important;
+}
+.logo_img{
+    width:70px;
+}
+/* Title-section */
+
+#title .container-fluid{
+    padding: 3% 15% 7% ;
+    text-align: left;
+}
+footer {
+    background-color: #DCBFFF; /* Set your footer background color */
+    color: #363062; /* Set your text color */
+    text-align: center;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+.social-links a {
+    color: #363062; /* Set your link color */
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-links i {
+    transition: color 0.3s;
+}
+
+.social-links a:hover i {
+    color: white; /* Set your hover color */
+}
+.Dev{
+    text-align: center;
+    margin-top: 40px;
+}

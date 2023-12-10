@@ -1,0 +1,151 @@
+.output{
+    margin-bottom: 20px; 
+    padding: 10px; 
+    display: block; 
+    text-align: center; 
+    font-size: 1.2rem; 
+    font-family: 'Montserrat', sans-serif; 
+    color: #363062;
+    
+}
+
+#imagePreview {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+.Submit-Button{
+    border-radius: 10%;
+    font-size: larger;
+}
+.etp{
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 80px;
+    width: 380px;
+}
+.formEDP{
+    width: 65vh; /* Set the width and height to create a perfect circle */
+    height: 65vh;
+    background-color:  #F1EAFF; /* Set your desired lavender color */
+    position: absolute; /* Position it absolutely to cover the entire viewport */
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%, -50%); /* Center it in the viewport */
+    z-index: -1; /* Move it to the background */
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+.info{
+    display: inline-flex;
+    position: absolute;
+    padding-top: 5px;
+}
+.f1{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 120px;
+}
+.Res{
+    width: 65vh; /* Set the width and height to create a perfect circle */
+    height: 65vh;
+    background-color:  #F1EAFF; /* Set your desired lavender color */
+    position: absolute; /* Position it absolutely to cover the entire viewport */
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%); /* Center it in the viewport */
+    z-index: -1; /* Move it to the background */
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+}
+.im{
+    display: inline-flex;
+    position: absolute;
+    padding-top: 5px;
+    margin-top: 50px;
+}
+.f2{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.PIF{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    background-color: #F1EAFF;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #DCBFFF;
+    color:#363062 !important;
+    height: 140px;
+}
+/* Navigation-Bar */
+
+.navbar{
+    padding: 0 0 0rem;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #363062 !important;
+}
+.nav-link a:hover {
+    color: white; /* Set your hover color */
+}
+
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #363062 !important;
+    margin-top: 0px;
+}
+
+.nav-item{
+    padding: 5px;
+    color: #363062 !important;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat" ;
+    font-weight: light;
+    color: #363062 !important;
+}
+.logo_img{
+    width:70px;
+}
+/* Title-section */
+
+#title .container-fluid{
+    padding: 3% 15% 7% ;
+    text-align: left;
+}
+
+#btn-predict {
+    background-color: #363062; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

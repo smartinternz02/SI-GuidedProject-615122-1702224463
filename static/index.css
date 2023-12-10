@@ -1,0 +1,140 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #DCBFFF;
+    color:#363062 !important;
+    height: 140px;
+}
+.intro{
+    width: 80vh; /* Set the width and height to create a perfect circle */
+    height: 80vh;
+    background-color: #F1EAFF; /* Set your desired lavender color */
+    border-radius: 50%; /* Make it circular */
+    position: absolute; /* Position it absolutely to cover the entire viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center it in the viewport */
+    z-index: -1; /* Move it to the background */
+    margin-top: 70px;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.col-lg-6{
+    margin-top: 180px;
+}
+
+.intro p {
+    max-width:100%; /* Set a maximum width for better readability */
+}
+
+.eye{
+    width: 280px;
+    margin-left: 1100px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 8%;
+}
+.eye2{
+    width:280px;
+    margin-left: 1100px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 8%;
+}
+.testimonials{
+    display: flex;
+    width: 250px;
+    text-align: center;
+    margin-left: 50px;
+    position: absolute
+}
+.Test1{
+    font-weight: light;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-top: 110px;
+    margin-left: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 8%;
+}
+.testp1{
+    width:150px;
+    margin-left: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.container-flex {
+    display: flex;
+    
+}
+
+/* Navigation-Bar */
+
+.navbar{
+    padding: 0 0 0rem;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #363062 !important;
+}
+.nav-link a:hover {
+    color: white; /* Set your hover color */
+}
+
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #363062 !important;
+    margin-top: 0px;
+}
+
+.nav-item{
+    padding: 5px;
+    color: #363062 !important;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat" ;
+    font-weight: light;
+    color: #363062 !important;
+}
+.logo_img{
+    width:70px;
+}
+
+
+/* Title-section */
+
+#title .container-fluid{
+    padding: 3% 15% 7% ;
+    text-align: left;
+}
+
+.Predict{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#363062;
+    padding-top: 100px;
+}

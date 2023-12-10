@@ -1,0 +1,123 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.colored-section{
+    background-color: #DCBFFF;
+    color:#363062 !important;
+    height: 140px;
+    margin: 0;
+}
+.col-lg-6{
+    margin-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.irregular-curve {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh; /* 75% of the viewport height */
+    background-color: #DCBFFF; /* Set your desired curve color */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: -1; /* Move the curve to the background */
+}
+.au-heading{
+    text-align: justify;
+    left:90%;
+}
+.abtus{
+    width: 65vh; /* Set the width and height to create a perfect circle */
+    height: 65vh;
+    background-color:  #F1EAFF; /* Set your desired lavender color */
+    border-radius: 30%; /* Make it circular */
+    position: absolute; /* Position it absolutely to cover the entire viewport */
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%); /* Center it in the viewport */
+    z-index: -1; /* Move it to the background */
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.design-ab{
+    height: 200px;
+}
+.how-we-work{
+    width: 65vh; /* Set the width and height to create a perfect circle */
+    height: 65vh;
+    background-color:  #F1EAFF; /* Set your desired lavender color */
+    border-radius: 30%; /* Make it circular */
+    position: absolute; /* Position it absolutely to cover the entire viewport */
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%); /* Center it in the viewport */
+    z-index: -1; /* Move it to the background */
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.col-lgg-6{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cp{
+    width: 280px;
+    margin-top: 150px;
+    border-radius: 50%;
+}
+.au{
+    font-size: large;
+}
+/* Title-section */
+
+#title .container-fluid{
+    padding: 3% 15% 7% ;
+    text-align: left;
+}
+/* Navigation-Bar */
+
+.navbar{
+    padding: 0 0 0rem;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #363062 !important;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #363062 !important;
+    margin-top: 0px;
+}
+
+.nav-item{
+    padding: 5px;
+    color: #363062 !important;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat" ;
+    font-weight: light;
+    color: #363062 !important;
+}
+.logo_img{
+    width:70px;
+}
